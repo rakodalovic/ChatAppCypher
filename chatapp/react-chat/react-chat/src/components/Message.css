@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Outfit-Medium';
+  src: url(../fonts/Outfit-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit-Bold';
+  src: url(../fonts/Outfit-Bold.ttf);
+}
+
+.message-container {
+  background-color: #668cff; 
+  padding: 9px;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-start; 
+  max-width: 55%; 
+  word-wrap: break-word; 
+}
+
+.message-sender {
+  
+  font-weight: 600;
+  margin-right: 5px; 
+  font-family: 'Outfit-Medium';
+  font-size: 18px;
+}
+
+.message-text {
+  /*margin-bottom: 5px;*/
+  flex-grow: 1;
+  display: flex;
+  align-self: flex-start; 
+  text-align: left;
+  font-family: 'Outfit-Medium';
+  max-width: 230px;
+}
+
+.message-datetime {
+  font-size: 0.8rem;
+  color: #002b80;
+  align-self: flex-end; /* Poravnaj vreme u donjem desnom uglu */
+}
